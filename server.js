@@ -67,7 +67,6 @@ app.post('/get-encrypt-data',(req,res)=>{
 })
 
 app.post('/redirect',(req,res)=>{
-    // const URL = `${process.env.FRONTEND_URL}/userWall/${userId}?from=returnURL&comment=${Comment}&donateFrom=${donateFromName}&donateTo=${donateToName}&amt=${Amt}`
     const URL = `https://codewarrior1992.github.io/newebpay-client/`
     res.redirect(URL)
 })
